@@ -1,0 +1,17 @@
+#hero-section{
+    display: flex;
+    background: linear-gradient(to right, #ee7686 , #FFDDE1);
+    height: 60vh;
+}
+.hero-text{
+    flex: .5;
+    align-self: center;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    padding-left: 4rem;
+}
+
+.hero-banner{
+    
+}

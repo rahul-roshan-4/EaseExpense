@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* align-items: center; */
+    font-size: 15px;
+}
+.container-left{
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    flex: 1;
+    align-items: center;
+  
+}
+.container-right{
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+    align-items: center;
+
+}
+.loginbtn{
+    padding: .3rem;
+    width: 5.3rem;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-color: rgb(0, 255, 238);
+}
+.loginbtn:hover{
+     background-color: rgb(5, 63, 74);
+}
+.elements{
+    padding: .8rem;
+}
+.link{
+    text-decoration: none;
+    color: rgb(119, 108, 108);
+}
+.link:hover{
+    color: rgb(28, 36, 36);
+    /* text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 7px; */
+    
+}

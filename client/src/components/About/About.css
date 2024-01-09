@@ -1,0 +1,12 @@
+.about-sec{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    gap: .5rem;
+    padding: 5rem;
+    height: 60vh;
+    background-color: #990000;
+    background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+    color: white;
+    
+}

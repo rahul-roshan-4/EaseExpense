@@ -1,0 +1,22 @@
+#feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  gap: 5rem;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.feature-item{
+     align-self: center;
+     
+}
+
+/* Normal mobile devices */
+@media only screen and (max-width: 767px) {
+
+    /* Replace '.your-div-class' with the actual class or ID of your div */
+    #feature {
+        display: flex;
+        flex-direction: column;
+    }
+}
